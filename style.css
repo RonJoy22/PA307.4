@@ -1,0 +1,55 @@
+#resume-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(235, 238, 241);
+  justify-content: space-between;
+  color: darkblue;
+
+  
+}
+.about-section {
+  display: flex;
+  margin: 5%;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.about-me {
+  flex: 1;
+  color: darkblue;
+}
+.contact-info {
+  flex: 2;
+}
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: left;
+  border-color: white;
+  box-decoration-break: slice;
+
+}
+.education {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.experience {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+h1 {
+  font-size: 20px;
+  color: greenyellow;
+}
